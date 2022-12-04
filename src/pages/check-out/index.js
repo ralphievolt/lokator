@@ -1,6 +1,6 @@
 // ** MUI Imports
 import Grid from '@mui/material/Grid'
-import FormLayoutsSeparator from 'src/views/form-layouts/FormLayoutsSeparator'
+import FormLayoutsSeparator from 'src/views/check-in/CheckIn'
 
 const FormLayouts = () => {
   return (
