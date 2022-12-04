@@ -4,8 +4,10 @@ import CheckIn from 'src/views/check-in/CheckIn'
 
 const CheckInPage = () => {
   return (
-    <Grid container>
-      <CheckIn />
+    <Grid container spacing={6}>
+      <Grid item xs={12}>
+        <CheckIn />
+      </Grid>
     </Grid>
   )
 }

@@ -9,10 +9,10 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight'
 import MobileStepper from '@mui/material/MobileStepper'
 import Paper from '@mui/material/Paper'
 import Typography from '@mui/material/Typography'
-import TypeQR from '../check-out/TypeQR'
+import TypeQR from './TypeQR'
 import { qrcodeAtom } from '../../store/store'
 
-import QrListValue from '../check-out/QrListValue'
+import QrListValue from './QrListValue'
 
 const steps = [
   {
@@ -26,7 +26,7 @@ const steps = [
   }
 ]
 
-export default function CheckinTransaction() {
+export default function CheckOutTransaction() {
   const theme = useTheme()
   const [activeStep, setActiveStep] = React.useState(0)
   const [, setQrCode] = useAtom(qrcodeAtom)

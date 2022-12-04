@@ -1,19 +1,19 @@
 import Typography from '@mui/material/Typography'
 import Paper from '@mui/material/Paper'
-import CheckinTransaction from './CheckinTransaction'
+import CheckOutTransaction from './CheckOutTransaction'
 
-const CheckIn = () => {
+const CheckOut = () => {
   return (
     <>
       <Typography variant='h5' sx={{ marginBottom: 2, color: '#9155fd' }}>
-        Check-In Fixture{' '}
+        Check-Out Fixture{' '}
       </Typography>
 
       <Paper>
-        <CheckinTransaction />
+        <CheckOutTransaction />
       </Paper>
     </>
   )
 }
 
-export default CheckIn
+export default CheckOut

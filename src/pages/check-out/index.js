@@ -1,15 +1,15 @@
 // ** MUI Imports
 import Grid from '@mui/material/Grid'
-import FormLayoutsSeparator from 'src/views/check-in/CheckIn'
+import CheckOut from 'src/views/check-out/CheckOut'
 
-const FormLayouts = () => {
+const CheckInPage = () => {
   return (
     <Grid container spacing={6}>
       <Grid item xs={12}>
-        <FormLayoutsSeparator />
+        <CheckOut />
       </Grid>
     </Grid>
   )
 }
 
-export default FormLayouts
+export default CheckInPage
