@@ -29,7 +29,7 @@ const TypeQR = props => {
     } else if (props.number === 1) {
       textLabel = 'Fixture Id'
     } else if (props.number === 2) {
-      textLabel = 'Rack Id'
+      textLabel = 'Location Id'
     }
 
     return textLabel

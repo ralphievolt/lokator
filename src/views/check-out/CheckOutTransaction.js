@@ -19,10 +19,10 @@ const steps = [
     label: 'Enter or Scan User Id'
   },
   {
-    label: 'Enter or Scan Fixture Id'
+    label: 'Enter or Scan Location Id'
   },
   {
-    label: 'Enter or Scan Location Id'
+    label: 'Enter or Scan Fixture Id'
   }
 ]
 

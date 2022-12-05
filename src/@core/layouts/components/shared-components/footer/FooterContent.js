@@ -7,7 +7,7 @@ const FooterContent = () => {
   return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
       <Typography sx={{ mr: 2 }}>
-        {`© ${new Date().getFullYear()}, develop by `}
+        {`© ${new Date().getFullYear()}  developed by `}
         ralphie
       </Typography>
     </Box>
