@@ -22,7 +22,7 @@ const QrListValue = () => {
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <FaceOutlinedIcon />
+                <FaceOutlinedIcon color='primary' />
               </ListItemIcon>
               <ListItemText primary={userId} />
             </ListItemButton>
@@ -30,7 +30,7 @@ const QrListValue = () => {
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <CallToActionOutlinedIcon />
+                <CallToActionOutlinedIcon color='primary' />
               </ListItemIcon>
               <ListItemText primary={fixtureId} />
             </ListItemButton>
@@ -38,7 +38,7 @@ const QrListValue = () => {
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <VerticalShadesOutlinedIcon />
+                <VerticalShadesOutlinedIcon color='primary' />
               </ListItemIcon>
               <ListItemText primary={locationId} />
             </ListItemButton>

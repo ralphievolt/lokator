@@ -39,14 +39,6 @@ const depositData = [
     title: 'American Bank',
     subtitle: 'Bank Transfer',
     logo: '/images/logos/american-bank.png'
-  },
-  {
-    logoWidth: 33,
-    logoHeight: 22,
-    amount: '+$446',
-    title: 'Bank Account',
-    subtitle: 'Wallet deposit',
-    logo: '/images/logos/citi-bank.png'
   }
 ]
 
@@ -82,14 +74,6 @@ const withdrawData = [
     title: 'Digital Ocean',
     subtitle: 'Cloud Hosting',
     logo: '/images/logos/digital-ocean.png'
-  },
-  {
-    logoWidth: 36,
-    logoHeight: 21,
-    amount: '-$21',
-    title: 'AWS Account',
-    logo: '/images/logos/aws.png',
-    subtitle: 'Choosing a Cloud Platform'
   }
 ]
 
@@ -109,9 +93,8 @@ const DepositWithdraw = () => {
     <Card sx={{ display: 'flex', justifyContent: 'space-between', flexDirection: ['column', 'column', 'row'] }}>
       <Box sx={{ width: '100%' }}>
         <CardHeader
-          title='Deposit'
+          title='Top Check-In'
           sx={{ pt: 5.5, alignItems: 'center', '& .MuiCardHeader-action': { mt: 0.6 } }}
-          action={<Typography variant='caption'>View All</Typography>}
           titleTypographyProps={{
             variant: 'h6',
             sx: { lineHeight: '1.6 !important', letterSpacing: '0.15px !important' }
@@ -155,9 +138,8 @@ const DepositWithdraw = () => {
 
       <Box sx={{ width: '100%' }}>
         <CardHeader
-          title='Withdraw'
+          title='Top Check-Out'
           sx={{ pt: 5.5, alignItems: 'center', '& .MuiCardHeader-action': { mt: 0.6 } }}
-          action={<Typography variant='caption'>View All</Typography>}
           titleTypographyProps={{
             variant: 'h6',
             sx: { lineHeight: '1.6 !important', letterSpacing: '0.15px !important' }
